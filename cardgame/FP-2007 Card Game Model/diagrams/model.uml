@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>model</OriginalElement>
+  <nodes>
+    <node x="337.125" y="492.0">model.bet.SuitBet</node>
+    <node x="479.125" y="125.0">model.GameEngine</node>
+    <node x="21.0" y="768.0">model.bet.ScoreBetImpl</node>
+    <node x="0.0" y="504.0">model.bet.ScoreBet</node>
+    <node x="123.375" y="0.0">model.bet.Bet</node>
+    <node x="405.0" y="994.0">model.card.Deck</node>
+    <node x="217.0" y="994.0">model.card.Rank</node>
+    <node x="817.0" y="994.0">model.card.Suit</node>
+    <node x="399.0" y="1183.0">model.card.DeckImpl</node>
+    <node x="0.0" y="1249.0">model.card.CardImpl</node>
+    <node x="0.0" y="994.0">model.card.Card</node>
+    <node x="1061.625" y="0.0">model.card.Hand</node>
+    <node x="1061.625" y="319.0">model.card.HandImpl</node>
+    <node x="1281.625" y="257.0">view.ConsoleLoggerCallback</node>
+    <node x="124.0" y="341.0">model.bet.AbstractBet</node>
+    <node x="508.625" y="402.0">model.GameEngineImpl</node>
+    <node x="812.625" y="321.0">model.PlayerImpl</node>
+    <node x="819.625" y="0.0">model.Player</node>
+    <node x="516.125" y="0.0">view.GameCallbackCollection</node>
+    <node x="632.0" y="994.0">model.bet.BetResult</node>
+    <node x="1306.125" y="0.0">view.GameCallback</node>
+    <node x="227.875" y="746.0">model.bet.SuitBetImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.bet.SuitBet" target="model.bet.Bet">
+      <point x="0.0" y="-26.5" />
+      <point x="385.625" y="316.0" />
+      <point x="267.375" y="316.0" />
+      <point x="48.0" y="145.5" />
+    </edge>
+    <edge source="model.bet.ScoreBetImpl" target="model.bet.ScoreBet">
+      <point x="-45.5" y="-79.5" />
+      <point x="66.5" y="721.0" />
+      <point x="52.0" y="721.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="model.bet.SuitBetImpl" target="model.bet.AbstractBet">
+      <point x="-49.75" y="-101.5" />
+      <point x="277.625" y="721.0" />
+      <point x="268.0" y="721.0" />
+      <point x="48.0" y="177.5" />
+    </edge>
+    <edge source="model.card.HandImpl" target="model.card.Hand">
+      <point x="0.0" y="-134.5" />
+      <point x="0.0" y="134.5" />
+    </edge>
+    <edge source="model.GameEngine" target="view.GameCallbackCollection">
+      <point x="0.0" y="-113.5" />
+      <point x="581.625" y="100.0" />
+      <point x="577.125" y="100.0" />
+      <point x="-61.0" y="37.5" />
+    </edge>
+    <edge source="model.bet.ScoreBet" target="model.bet.Bet">
+      <point x="0.0" y="-14.5" />
+      <point x="52.0" y="316.0" />
+      <point x="171.375" y="316.0" />
+      <point x="-48.0" y="145.5" />
+    </edge>
+    <edge source="view.ConsoleLoggerCallback" target="view.GameCallback">
+      <point x="0.0" y="-156.5" />
+      <point x="0.0" y="103.5" />
+    </edge>
+    <edge source="model.bet.SuitBetImpl" target="model.bet.SuitBet">
+      <point x="49.75" y="-101.5" />
+      <point x="377.125" y="721.0" />
+      <point x="385.625" y="721.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="model.card.DeckImpl" target="model.card.Deck">
+      <point x="0.0" y="-134.5" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="model.GameEngineImpl" target="model.GameEngine">
+      <point x="-64.75" y="-189.5" />
+      <point x="573.375" y="377.0" />
+      <point x="581.625" y="377.0" />
+      <point x="0.0" y="113.5" />
+    </edge>
+    <edge source="model.PlayerImpl" target="model.Player">
+      <point x="0.0" y="-156.5" />
+      <point x="0.0" y="135.5" />
+    </edge>
+    <edge source="model.GameEngineImpl" target="view.GameCallbackCollection">
+      <point x="64.75" y="-189.5" />
+      <point x="702.875" y="377.0" />
+      <point x="694.625" y="377.0" />
+      <point x="694.625" y="100.0" />
+      <point x="699.125" y="100.0" />
+      <point x="61.0" y="37.5" />
+    </edge>
+    <edge source="model.card.CardImpl" target="model.card.Card">
+      <point x="0.0" y="-123.5" />
+      <point x="0.0" y="102.5" />
+    </edge>
+    <edge source="model.bet.ScoreBetImpl" target="model.bet.AbstractBet">
+      <point x="45.5" y="-79.5" />
+      <point x="157.5" y="721.0" />
+      <point x="172.0" y="721.0" />
+      <point x="-48.0" y="177.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.636380255941499" x="1217.034202149169" y="1391.1180150220073" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

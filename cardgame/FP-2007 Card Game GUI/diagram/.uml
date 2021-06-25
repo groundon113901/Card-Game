@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="462.25" y="264.0">model.menu</node>
+    <node x="0.0" y="507.0">view.playersHandPanelView</node>
+    <node x="2100.1598863636364" y="890.0">client.GuiCardGame</node>
+    <node x="843.0" y="507.0">view.toolBarView</node>
+    <node x="947.5" y="661.0">view.mainWindow</node>
+    <node x="2060.366136363636" y="0.0">model.bet</node>
+    <node x="2050.0" y="232.0">model.player</node>
+    <node x="1233.0" y="507.0">view.statusBarView</node>
+    <node x="1632.0" y="507.0">view.playersPanelView</node>
+    <node x="760.5" y="189.0">client.eventListener</node>
+    <node x="445.0" y="486.0">view.menuBarView</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="view.mainWindow" target="model.player">
+      <point x="157.27272727272725" y="-89.5" />
+      <point x="1277.7727272727273" y="641.0" />
+      <point x="2171.5" y="641.0" />
+      <point x="2171.5" y="466.0" />
+      <point x="2129.5" y="466.0" />
+      <point x="-26.5" y="80.5" />
+    </edge>
+    <edge source="client.GuiCardGame" target="model.bet">
+      <point x="59.599999999999966" y="-26.5" />
+      <point x="2234.2598863636363" y="870.0" />
+      <point x="2272.5" y="870.0" />
+      <point x="2272.5" y="164.0" />
+      <point x="2219.616136363636" y="164.0" />
+      <point x="68.25" y="69.5" />
+    </edge>
+    <edge source="view.mainWindow" target="view.toolBarView">
+      <point x="-31.454545454545496" y="-89.5" />
+      <point x="1089.0454545454545" y="601.0" />
+      <point x="935.5" y="601.0" />
+      <point x="-92.5" y="26.5" />
+    </edge>
+    <edge source="view.mainWindow" target="view.playersPanelView">
+      <point x="125.81818181818176" y="-89.5" />
+      <point x="1246.3181818181818" y="631.0" />
+      <point x="2028.75" y="631.0" />
+      <point x="132.25" y="26.5" />
+    </edge>
+    <edge source="model.player" target="model.bet">
+      <point x="-53.0" y="-80.5" />
+      <point x="2103.0" y="164.0" />
+      <point x="2128.616136363636" y="164.0" />
+      <point x="-22.75" y="69.5" />
+    </edge>
+    <edge source="view.mainWindow" target="view.playersHandPanelView">
+      <point x="-157.27272727272725" y="-89.5" />
+      <point x="963.2272727272727" y="641.0" />
+      <point x="106.25" y="641.0" />
+      <point x="-106.25" y="26.5" />
+    </edge>
+    <edge source="view.playersPanelView" target="model.bet">
+      <point x="-132.25" y="-26.5" />
+      <point x="1764.25" y="164.0" />
+      <point x="2083.116136363636" y="164.0" />
+      <point x="-68.25" y="69.5" />
+    </edge>
+    <edge source="view.playersPanelView" target="model.player">
+      <point x="132.25" y="-26.5" />
+      <point x="2028.75" y="466.0" />
+      <point x="2076.5" y="466.0" />
+      <point x="-79.5" y="80.5" />
+    </edge>
+    <edge source="client.GuiCardGame" target="model.player">
+      <point x="0.0" y="-26.5" />
+      <point x="2174.6598863636364" y="870.0" />
+      <point x="2182.5" y="870.0" />
+      <point x="26.5" y="80.5" />
+    </edge>
+    <edge source="view.mainWindow" target="view.menuBarView">
+      <point x="-62.90909090909088" y="-89.5" />
+      <point x="1057.590909090909" y="611.0" />
+      <point x="728.5" y="611.0" />
+      <point x="94.5" y="47.5" />
+    </edge>
+    <edge source="view.menuBarView" target="client.eventListener">
+      <point x="141.75" y="-47.5" />
+      <point x="775.75" y="466.0" />
+      <point x="921.0" y="466.0" />
+      <point x="0.0" y="123.5" />
+    </edge>
+    <edge source="view.toolBarView" target="client.eventListener">
+      <point x="0.0" y="-26.5" />
+      <point x="107.0" y="123.5" />
+    </edge>
+    <edge source="client.GuiCardGame" target="view.mainWindow">
+      <point x="-59.59999999999991" y="-26.5" />
+      <point x="2115.0598863636365" y="870.0" />
+      <point x="1034.0" y="870.0" />
+      <point x="-86.5" y="89.5" />
+    </edge>
+    <edge source="view.menuBarView" target="model.menu">
+      <point x="-141.75" y="-47.5" />
+      <point x="492.25" y="466.0" />
+      <point x="503.75" y="466.0" />
+      <point x="-41.5" y="48.5" />
+    </edge>
+    <edge source="view.mainWindow" target="view.statusBarView">
+      <point x="31.454545454545496" y="-89.5" />
+      <point x="1151.9545454545455" y="601.0" />
+      <point x="1327.75" y="601.0" />
+      <point x="-94.75" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="1099.0" y="566.4285714285713" />
+  <SelectedNodes>
+    <node>view.menuBarView</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
